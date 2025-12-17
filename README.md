@@ -1,6 +1,6 @@
 # Clean Architecture
 
-## Project Structure 
+## Project Structure
 
 MyApp
 │
