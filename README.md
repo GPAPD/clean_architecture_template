@@ -5,30 +5,30 @@
 MyApp
 │
 ├── Domain
-│   ├── Entities
-│   │   └── Product.cs
-│   ├── ValueObjects
-│   └── Interfaces
-│       └── IProductRepository.cs
+│ ├── Entities
+│ │ └── Product.cs
+│ ├── ValueObjects
+│ └── Interfaces
+│ └── IProductRepository.cs
 │
 ├── Application
-│   ├── DTOs
-│   │   └── ProductDto.cs
-│   ├── Services
-│   │   ├── IProductService.cs
-│   │   └── ProductService.cs
-│   └── Mapping
-│       └── ProductMapper.cs (optional)
+│ ├── DTOs
+│ │ └── ProductDto.cs
+│ ├── Services
+│ │ ├── IProductService.cs
+│ │ └── ProductService.cs
+│ └── Mapping
+│ └── ProductMapper.cs (optional)
 │
 ├── Infrastructure
-│   ├── Persistence
-│   │   ├── AppDbContext.cs
-|   |   └─- Migration
-│   └── Repositories
-│       └── ProductRepository.cs
+│ ├── Persistence
+│ │ ├── AppDbContext.cs
+│ │ └── Migrations
+│ └── Repositories
+│ └── ProductRepository.cs
 │
 └── WebApi
-    ├── Controllers
-    │   └── ProductsController.cs
-    └── Program.cs
+├── Controllers
+│ └── ProductsController.cs
+└── Program.cs
 
